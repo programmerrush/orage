@@ -20,22 +20,24 @@ logo = '''\033[0m
 	| |  | |_| \__ \ | | | |   <  __/\__ \ | | |                   
 	|_|   \__,_|___/_| |_|_|_|\_\___||___/_| |_| 
 ============================================================
-  |         \      _ \    _ \   ____|  |     
-  |        _ \    |   |  |   |  __|    |     
-  |       ___ \   ___/   ___/   |      |     
- _____| _/    _\ _|     _|     _____| _____| \033[0m  \033[91m    \033[1m 
+	   _    _ __   _ _    __     __  
+	 /'_`\ ( '__)/'_` ) /'_ `\ /'__`\
+	( (_) )| |  ( (_| |( (_) |(  ___/
+	`\___/'(_)  `\__,_)`\__  |`\____)
+	                   ( )_) |       
+        	            \___/' \033[0m  \033[91m    \033[1m 
        }--{+} Created By Programmer Rushikesh {+}--{
      }----{+}  #4ck 4 Community {+}----{
        }--{+}  Even more .....  {+}--{                               
      '''
 menu = '''\033[0m
-    {1}--Whois lookup
-    {2}--Traceroute
-    {3}--DNS Lookup
-    {4}--Reverse DNS Lookup
-    {5}--GeoIP Lookup
-    {6}--Port Scan
-    {7}--Reverse IP Lookup
+    {1}--lookup
+    {2}--route
+    {3}--DNS
+    {4}--ReverseD
+    {5}--Geo
+    {6}--Port
+    {7}--ReverseI
     {99}-Exit                                                                                                                   
  '''
 print logo
@@ -52,7 +54,7 @@ def quit():
            
 def  select():
   try:
-    choice = input("lappel : ")
+    choice = input("OragE : ")
     if choice == 1:
       d3 = raw_input('Enter IP Or Domain : ')
       os.system("clear")
